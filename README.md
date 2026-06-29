@@ -1,4 +1,4 @@
-# CopyStructureExport
+# Copy Structure Export
 
 An Adminer plugin that adds a compact toolbar to the table structure view and lets you copy the structure in multiple formats.
 
