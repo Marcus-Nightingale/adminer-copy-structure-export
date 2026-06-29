@@ -17,10 +17,19 @@ An Adminer plugin that adds a compact toolbar to the table structure view and le
 Replace these placeholders with your base64-embedded images.
 
 ### Structure view
+![Structure view](screenshot.png)
 
 ### Markdown output
-
-### SQL output
+| Column | Type | Comment |
+| --- | --- | --- |
+| ID | bigint unsigned [] |  |
+| USER | varchar(32) [] |  |
+| HOST | varchar(261) [] |  |
+| DB | varchar(64) NULL [] |  |
+| COMMAND | varchar(16) [] |  |
+| TIME | int [] |  |
+| STATE | varchar(64) NULL [] |  |
+| INFO | varchar(65535) NULL [] |  |
 
 ## Requirements
 
