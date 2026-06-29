@@ -46,19 +46,22 @@ Replace these placeholders with your base64-embedded images.
 3. Reload Adminer and open a table structure page.
 
 Example layout:
-
+```text
 adminer-plugins/  
   copy-structure-export.php
+```
 
 ### Option 2: adminer-plugins.php
 
 If you use a plugin bootstrap file, return the plugin instance from adminer-plugins.php:
 
+```php
 <?php
 
 return array(  
     new Adminer\CopyStructureExport(),  
 );
+```
 
 Place adminer-plugins.php next to Adminer’s entry point so it is picked up during bootstrap.
 
